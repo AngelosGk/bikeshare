@@ -74,7 +74,7 @@ def load_data(city, month, day):
         df = df[df['week_days'] == day.title()]
     return df
 
-
+# STATS OF TIME
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
